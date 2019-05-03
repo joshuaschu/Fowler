@@ -4,16 +4,16 @@ class Rental {
     private Movie movie;
     private int daysRented;
 
-    public Rental(Movie newMovie, int newDaysRented) {
+    Rental(Movie newMovie, int newDaysRented) {
         movie = newMovie;
         daysRented = newDaysRented;
     }
 
-    public int getDaysRented() {
+    int getDaysRented() {
         return daysRented;
     }
 
-    public Movie getMovie() {
+    Movie getMovie() {
         return movie;
     }
 }

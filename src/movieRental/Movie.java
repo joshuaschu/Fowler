@@ -1,22 +1,22 @@
 package movieRental;
 
-public class Movie {
-    public static final int CHILDREN = 2;
-    public static final int REGULAR = 0;
-    public static final int NEW_RELEASE = 1;
+class Movie {
+    static final int CHILDREN = 2;
+    static final int REGULAR = 0;
+    static final int NEW_RELEASE = 1;
     private String title;
     private int priceCode;
 
-    public Movie(String newTitle, int newPriceCode) {
+    Movie(String newTitle, int newPriceCode) {
         title = newTitle;
         priceCode = newPriceCode;
     }
 
-    public int getPriceCode() {
+    int getPriceCode() {
         return priceCode;
     }
 
-    public String getTitle() {
+    String getTitle() {
         return title;
     }
 }

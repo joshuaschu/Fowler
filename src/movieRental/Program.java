@@ -11,7 +11,7 @@ public class Program {
      */
 
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String result;
         System.out.println("Welcome to the movieRental.Movie Store");
         Movie m1 = new Movie("movie1", 1);
