@@ -68,6 +68,9 @@ class Customer {
                 if (each.getDaysRented() > 3)
                     thisAmount += (each.getDaysRented() - 3) * 1.5;
                 break;
+            default:
+                //in case of an error
+                thisAmount = -1;
         }
         return thisAmount;
     }
