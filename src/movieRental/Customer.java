@@ -47,7 +47,7 @@ class Customer {
         return result.toString();
     }
 
-    private double amountFor(Rental rental) {
+    public double amountFor(Rental rental) {
         double thisAmount = 0;
         switch (rental.getMovie().getPriceCode()) {
             case Movie.REGULAR:
